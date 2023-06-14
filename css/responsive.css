@@ -1,0 +1,22 @@
+@media (max-width: 760px) {
+    header .container .sections{
+        gap: 1px;
+    }
+    header .container .sections .burger-menu{
+        display: block;
+    }
+    header .container .sections a{
+        font-size: 12px;
+        display: none;
+    }
+    main img{
+        width: 250px;
+    }
+    .About .content{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .About .content .who{
+        width: 350px;
+    }
+}

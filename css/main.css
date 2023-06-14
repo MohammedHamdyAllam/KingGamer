@@ -1,0 +1,178 @@
+::selection{
+    background-color: #00f;
+    color: #fff;
+}
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #00f;
+}
+::-webkit-scrollbar-track{
+    background-color: #222;
+}
+body{
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    align-items: center;
+}
+header{
+    height: 50px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header .container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container .my-name{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+}
+header .container .sections{
+    display: flex;
+    gap: 20px;
+}
+header .container .sections .burger-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+header .container .sections a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition-property: opacity;
+    transition-duration: 0.5s;
+}
+header .container .sections a:hover{
+    opacity: 50%;
+}
+main{
+    background-image: linear-gradient(to right, #00f, #f00);
+    height: 857px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 40px 0;
+}
+main img{
+    clip-path: circle();
+    height: auto;
+    width: 400px;
+}
+main .channel-name{
+    font-size: 40px;
+}
+main .channel-name .channel-name1{
+    color: #00f;
+}
+main .channel-name .channel-name2{
+    color: #f00;
+}
+.About{
+    display: flex;
+    height: 650px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+.About .content{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+}
+.About .content .who{
+    width: 500px;
+}
+.About .content .who h3{
+    font-size: 30px;
+}
+.About .content .who p{
+    font-size: 25px;
+}
+/* .About .content .subscribe{} */
+.About .content .subscribe button{
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+.About .content .subscribe button a{
+    color: #fff;
+    text-decoration: none;
+}
+.social-media{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0 40px 0;
+}
+.social-media .links-of-socail-media{
+    display: flex;
+    gap: 50px;
+}
+.social-media .links-of-socail-media a{
+    color: #fff;
+    text-decoration: none;
+}
+.social-media .links-of-socail-media a i{
+    font-size: 50px;
+}
+footer{
+    background-color: #333;
+    height: 100px;
+}
+footer .container{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+footer .container .links{
+    display: flex;
+    gap: 20px;
+}
+footer .container .links a{
+    color: #fff;
+    text-decoration: none;
+}
+footer .container .links a i{
+    font-size: 30px;
+}
+.up-button{
+    background-color: #00f;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    clip-path: circle();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    display: none;
+}
+.up-button:hover{
+    background-color: #f00;
+}

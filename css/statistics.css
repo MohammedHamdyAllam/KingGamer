@@ -1,0 +1,26 @@
+::selection{
+    background-color: #00f;
+}
+body{
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .youtube-statistics table tr th, .youtube-statistics table tr td{
+    border: #fff solid 1px;
+    padding: 10px;
+    height: 30px;
+    width: 400px;
+}
