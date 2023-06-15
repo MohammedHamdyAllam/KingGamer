@@ -30,7 +30,7 @@ header .container{
     width: 100%;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 header .container .my-name{
@@ -92,8 +92,7 @@ main .channel-name .channel-name2{
 .About .content{
     width: 90%;
     display: flex;
-    justify-content: space-around;
-    gap: 500px;
+    justify-content: space-between;
 }
 .About .content .who{
     width: 500px;
